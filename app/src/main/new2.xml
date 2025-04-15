@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="16dp" tools:context=".MainActivity">
+
+    <EditText android:id="@+id/inputEditText" android:layout_width="0dp"
+        android:layout_height="wrap_content" android:layout_marginTop="16dp"
+        android:hint="Enter Value" android:inputType="numberDecimal"
+        app:layout_constraintEnd_toStartOf="@+id/fromSpinner"
+        app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="number" />
+
+    <Spinner android:id="@+id/fromSpinner" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/inputEditText"
+        app:layout_constraintTop_toTopOf="@+id/inputEditText" />
+
+    <TextView android:id="@+id/resultTextView" android:layout_width="0dp"
+        android:layout_height="wrap_content" android:layout_marginTop="16dp" android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/toSpinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputEditText" tools:text="Result: " />
+
+    <Spinner android:id="@+id/toSpinner" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/resultTextView"
+        app:layout_constraintTop_toTopOf="@+id/resultTextView" />
+
+    <androidx.appcompat.widget.AppCompatButton android:id="@+id/convertButton"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="32dp" android:text="Convert"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

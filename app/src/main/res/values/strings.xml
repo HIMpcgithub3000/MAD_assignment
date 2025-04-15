@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Unit_convertor</string>
+    <string-array name="units_array">
+        <item>Feet</item>
+        <item>Inches</item>
+        <item>Centimeters</item>
+        <item>Meters</item>
+        <item>Yards</item>
+    </string-array>
+</resources>
