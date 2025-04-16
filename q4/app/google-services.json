@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "193926929252",
+    "project_id": "javagsign",
+    "storage_bucket": "javagsign.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193926929252:android:647a27478c6143427a7871",
+        "android_client_info": {
+          "package_name": "com.example.googleauthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193926929252-ujqvfavab88qkbu2tlebncqnp0el6hcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.googleauthapp",
+            "certificate_hash": "58afe398c3742f80e6ad2bf6ea2e3fb9a0724c81"
+          }
+        },
+        {
+          "client_id": "193926929252-ffs92tffm4rbbu26cad2dsrb0gngju64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8H_jHVU1pX-Z1E9Eo831E3q05BAhGzok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193926929252-ffs92tffm4rbbu26cad2dsrb0gngju64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
